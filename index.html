@@ -197,7 +197,7 @@ html, body {
 }
 .promo-input:focus { border-color: var(--blue); }
 .promo-btn {
-  background: var(--blue); color: white; border: none; border-radius: var(--radius-md);
+  background: var(--blue); color: white; border: none; border-radius: var(--radius-md);2
   padding: 0 16px; font-family: var(--font-display); font-size: 12px; font-weight: 800;
   cursor: pointer; transition: background 0.2s; white-space: nowrap;
 }
@@ -731,7 +731,8 @@ function closePopup(){ document.getElementById('scooterPopup').classList.remove(
 function startRide() { closePopup(); showToast(i18n[currentLang].toastRide); }
 
 /* ── PROMO ── */
-const validCodes = ['04100211','20081507','09988877'];
+const validCodes = ['04100211','20081507','09988877','mig50','20093107','20080308','526769','1000011111110000111110100010000001000011110110000111110','100010001011000100001110000111001
+'];
 function applyPromo() {
   const raw = document.getElementById('promoInput').value.trim();
   const result = document.getElementById('promoResult');
